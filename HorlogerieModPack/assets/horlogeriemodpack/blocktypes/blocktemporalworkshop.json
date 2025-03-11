@@ -1,0 +1,55 @@
+{
+  "code": "temporalworkshop",
+  "name": "Atelier de temporel",
+  "class": "blocktemporalworkshop",
+  "attributes": {
+    "reinforcable": true,
+    "noDownVariant": true
+  },
+  "variantgroups": [
+    {
+      "code": "updown",
+      "states": [ "up" ]
+    },
+    { "loadFromProperties": "abstract/horizontalorientation" },
+    {
+      "code": "cover",
+      "states": ["free"]
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*-up-north-free" ],
+    "construction": [ "*-up-north-free" ]
+  },
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+  },
+  "shapebytype": {
+    "*-up-north-free": {
+      "base": "horlogeriemodpack:shapes/blocktemporalworkshop.json",
+      "rotateY": 0
+    },
+    "*-up-west-free": {
+      "base": "horlogeriemodpack:shapes/blocktemporalworkshop.json",
+      "rotateY": 90
+    },
+    "*-up-south-free": {
+      "base": "horlogeriemodpack:shapes/blocktemporalworkshop.json",
+      "rotateY": 180
+    },
+    "*-up-east-free": {
+      "base": "horlogeriemodpack:shapes/blocktemporalworkshop.json",
+      "rotateY": 270
+    }
+  },
+  //"shape": {
+  //  "base": "horlogeriemodpack:shapes/blocktemporalworkshop.json"
+  //},
+  "sound": "stone",
+  "blockmaterial": "stone"
+}

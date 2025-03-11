@@ -1,0 +1,17 @@
+{
+  "type": "code",
+  "modid": "horlogeriemodpack",
+  "name": "HorlogerieModPack",
+  "authors": [
+    "Runeranock"
+  ],
+  "description": "le mod pack du serveur Français vintage story l'Horlogerie",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": ""
+  },
+  "languageFiles": [ "lang/fr.json", "lang/en.json" ],
+  "collectibleBehaviors": {
+    "AnimatedRender": "horlogeriemodpack.AnimatedRenderBehavior"
+  }
+}

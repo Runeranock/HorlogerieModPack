@@ -1,0 +1,25 @@
+{
+  "dispositifname": "Translocation device",
+  "dispositifcharges": "Remaining charges",
+  "translocationdispositif": "Temporal Workshope ",
+  "dispositifoutofcharge": "The device is out of charge!",
+  "configuration": "Configuration",
+  "targetnorth": "Randomly towards the north",
+  "targetsouth": "Randomly towards the south",
+  "targeteast": "Randomly towards the east",
+  "targetwest": "Randomly towards the west",
+  "targetrandom": "Randomly",
+  "targetspawn": "Towards the spawn",
+  "targetplayerspawn": "To your spawn point",
+  "targetnotconfigured": "Not configurer",
+  "targetto": "To",
+  "tdinfo1": "Place the device to be configured in the upper slot!",
+  "tdinfo2": "Select a destination from the dropdown list!",
+  "tdinfo3": "Apply the configuration by clicking [Configure the device]!",
+  "tdinfo4": "Retrieve the device!",
+  "selecttargetconfiguration": "Target configuration",
+  "butconfiguredispositif": "Configure the device",
+  "guitemporalworkshoptitle": "Device configuration",
+  "MsgAuthorizeTpa": "{0} wants to join you. <a href=\"command:///dispositiftransloctome {1} {2} {3}\">[Accept]</a>"
+
+}

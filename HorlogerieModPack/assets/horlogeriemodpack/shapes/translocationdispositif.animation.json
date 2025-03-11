@@ -1,0 +1,45 @@
+{
+    "animations"
+    :
+    [
+      {
+        "name": "Animation 1",
+        "code": "animation1",
+        "quantityframes": 30,
+        "onActivityStopped": "Rewind",
+        "onAnimationEnd": "Repeat",
+        "keyframes": [
+          {
+            "frame": 0,
+            "elements": {
+              "PartieMobile1": {
+                "rotationX": 0.0,
+                "rotationY": 0.0,
+                "rotationZ": 0.0
+              },
+              "PartieMobile2": {
+                "rotationX": 0.0,
+                "rotationY": 0.0,
+                "rotationZ": 0.0
+              }
+            }
+          },
+          {
+            "frame": 29,
+            "elements": {
+              "PartieMobile1": {
+                "rotationX": 0.0,
+                "rotationY": 0.0,
+                "rotationZ": 180.0
+              },
+              "PartieMobile2": {
+                "rotationX": 0.0,
+                "rotationY": 0.0,
+                "rotationZ": -180.0
+              }
+            }
+          }
+        ]
+      }
+  ]
+}
