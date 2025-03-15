@@ -50,18 +50,18 @@
       "rotationOrigin": [ 0.0, 10.0, 16.0 ],
       "rotationX": 22.5,
       "faces": {
-        "north": {
-          "texture": "#null",
-          "uv": [ 0.0, 0.0, 16.0, 5.0 ]
-        },
+        //"north": {
+        //  "texture": "#null",
+        //  "uv": [ 0.0, 0.0, 16.0, 5.0 ]
+        //},
         "east": {
           "texture": "#zinc",
           "uv": [ 0.0, 0.0, 15.0, 5.0 ]
         },
-        "south": {
-          "texture": "#null",
-          "uv": [ 0.0, 0.0, 16.0, 5.0 ]
-        },
+        //"south": {
+        //  "texture": "#null",
+        //  "uv": [ 0.0, 0.0, 16.0, 5.0 ]
+        //},
         "west": {
           "texture": "#zinc",
           "uv": [ 0.0, 0.0, 15.0, 5.0 ]
@@ -70,10 +70,10 @@
           "texture": "#zinc",
           "uv": [ 0.0, 0.0, 16.0, 15.0 ]
         },
-        "down": {
-          "texture": "#null",
-          "uv": [ 0.0, 0.0, 16.0, 15.0 ]
-        }
+        //"down": {
+        //  "texture": "#null",
+        //  "uv": [ 0.0, 0.0, 16.0, 15.0 ]
+        //}
       },
       "children": [
         {
